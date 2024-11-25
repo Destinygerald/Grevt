@@ -1,0 +1,238 @@
+@media (max-width: 600px) {
+	/*Banner*/
+	.banner {
+
+	}
+
+	.banner-cnt > div:last-child > div:first-child {
+		font-size: 2rem;
+		font-weight: 800;
+	}
+
+	.banner-cnt > div:last-child > div:first-child > br {
+		display: none;
+	}
+
+	.banner-cnt > div:last-child > div:last-child {
+		display: none;
+	}
+
+	.banner-skill-list {
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.banner-skill-list > div:first-child, .banner-skill-list > div:last-child {
+		width: 100%;
+	}
+
+	.banner-skill-list > div:nth-child(2) {
+		display: none;
+	}
+
+	.banner-skill-list > div:last-child {
+		font-size: .68rem;
+	}
+
+	.banner-btm {
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.banner-img, .banner-img-cnt {
+		width: 100%;
+	}
+
+	.banner-img-cnt {
+		text-align: center;
+		height: fit-content;
+		padding-bottom: 28px;
+	}
+
+	/*Marquee*/
+
+
+	/*OurServices*/
+
+	.our-services-cnt > div:last-child {
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.our-services-cnt > div:last-child > div {
+		width: 100%;
+	}
+
+	.our-services-cnt > div:last-child > div:last-child {
+		width: 100%;
+		font-size: .7rem;
+	} 
+
+	.our-services-cnt > div:last-child > div:nth-child(2) > div:first-child, .our-services-cnt > div:last-child > div:first-child > br {
+		display: none;
+	} 
+
+	.our-services-card {
+		flex-direction: column;
+		padding: 16px 24px;
+		gap: 20px;
+	}
+
+	.our-services-card-cnt > div:nth-child(2) {
+		gap: 4px;
+	}
+
+	.our-services-card-cnt {
+		width: 100%;
+	}
+
+	.our-services-card-img {
+	}
+
+	.our-services-card-btn {
+		align-self: flex-end;
+		translate: -26px 0;
+	}
+
+
+	/*AboutUs*/
+
+	.about-us {
+		height: fit-content;
+		flex-direction: column-reverse;
+		gap: 12px;
+	}
+
+	.about-us-cnt {
+		width: 100%;
+	}
+
+	.about-us-img {
+		height: 300px;
+		width: 100%;
+	}
+
+	.about-us-img-extra > div {
+		padding-top: 20px;
+	}
+
+	.about-us-img-extra > div > span:first-child {
+		font-size: 2.4rem;
+	}
+ 
+	.about-us-img-extra > div:last-child > div {
+		font-size: .6rem;
+	}
+
+	.about-us-img-extra > div:last-child > div > span:first-child {
+		font-size: 1.2rem;
+		font-weight: 800;
+	}
+
+	/*OurProcess*/
+	.our-process > div:last-child {
+		flex-direction: column;
+		gap: 36px;
+	}
+
+	.our-process-card  {
+		max-width: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+	/*Contact*/
+
+	.contact-top-hdr > div:first-child > div:last-child > br {
+		display: none;
+	}
+
+
+	.contact-top-hdr > div:last-child  {
+		display: none;
+	}
+
+	.contact-btm {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.contact-form, .contact-info {
+		width: 100%;
+	}
+
+	/*Testimonials*/
+
+	.testimonials-card {
+		min-height: 200px;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		padding: 28px 16px;
+	}
+
+	.testimonials-card-img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.testimonials-card-img > div:first-child {
+		right: 2px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.testimonials-card-img > div:first-child > div {
+		width: 28px;
+		height: 28px;
+		font-size: 2.4rem;
+	}
+
+
+
+	.testimonials-card > div:last-child  {
+		width: 100%;
+		align-items: center;
+	}
+
+	.testimonials-card > div:last-child > div:nth-child(2) {
+		width: 100%;
+	}
+
+	.testimonials-card > div:last-child > div:last-child {
+		align-self: flex-start;
+	}
+
+
+	/*Footer*/
+
+	.footer-cnt {
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	.footer-cnt > div {
+		width: 100%;
+	}
+
+	.footer-cnt > div:nth-child(2) {
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.footer-cnt > div:nth-child(2) > div {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.footer-cnt > div:nth-child(2) > div > span:first-child {
+		grid-column: span 3;
+	}
+
+	.footer-cnt > div:last-child {
+		width: 100%;
+		align-items: flex-end;
+		gap: 6px;
+	}
+
+}

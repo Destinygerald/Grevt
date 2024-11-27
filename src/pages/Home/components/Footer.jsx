@@ -1,5 +1,6 @@
 import '../style.css'
 import '../style.mobile.css'
+import { IoMdSend } from 'react-icons/io'
 
 
 function FooterCnt () {
@@ -34,7 +35,7 @@ function FooterCnt () {
 
 			<div className='footer-subscribe'>
 				<input type='text' placeholder='Email Address' />
-				<div> > </div>
+				<div> <IoMdSend /> </div>
 			</div>
 		</div>
 	</div>

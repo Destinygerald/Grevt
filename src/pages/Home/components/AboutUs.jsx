@@ -1,5 +1,6 @@
 import '../style.css'
 import '../style.mobile.css'
+import img5 from '/images/img5.webp'
 
 function AboutUsImg () {
 	return (
@@ -8,7 +9,9 @@ function AboutUsImg () {
 			<span />
 			<span />
 
-			<div className='about-us-img-cnt'></div>
+			<div className='about-us-img-cnt'>
+				<img src={img5} />
+			</div>
 
 			<div className='about-us-img-extra'>
 				<div>

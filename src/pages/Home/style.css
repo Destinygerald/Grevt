@@ -126,6 +126,7 @@
 	width: 74%;
 	background-color: rgb(200, 200, 200);
 	border-radius: 20px;
+	overflow: hidden;
 }
 
 .banner-img > img {
@@ -379,6 +380,10 @@
 	overflow: hidden;
 }
 
+.our-services-card-img > img {
+	width: 100%;
+}
+
 .our-services-card-btn {
 	position: relative;
 }
@@ -431,6 +436,11 @@
 	height: 100%;
 	border-radius: 12px;
 	background-color: rgb(220, 220, 220);
+	overflow: hidden;
+}
+
+.about-us-img-cnt > img {
+	width: 100%;
 }
 
 .about-us-img-extra {

@@ -1,5 +1,6 @@
 import '../style.css'
 import '../style.mobile.css'
+import img1 from '/images/img5.webp'
 
 function BannerCnt () {
 	return (
@@ -58,7 +59,7 @@ function BannerBtm () {
 	return (
 		<div className='banner-btm'>
 			<div className='banner-img'>
-				{/*<img />*/}
+				<img src={img1} />
 				<div className='banner-img-info'>
 					<div className='banner-img-info-inner'>
 						<div>

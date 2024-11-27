@@ -43,6 +43,10 @@
 		width: 100%;
 	}
 
+	.banner-img > img {
+		height: 100%;
+	}
+
 	.banner-img-cnt {
 		text-align: center;
 		height: fit-content;
@@ -71,6 +75,10 @@
 	.our-services-cnt > div:last-child > div:nth-child(2) > div:first-child, .our-services-cnt > div:last-child > div:first-child > br {
 		display: none;
 	} 
+
+	.our-services-card-img > img {
+		height: 100%;
+	}
 
 	.our-services-card {
 		flex-direction: column;
@@ -110,6 +118,10 @@
 	.about-us-img {
 		height: 300px;
 		width: 100%;
+	}
+
+	.about-us-img-cnt > img {
+		height: 100%;
 	}
 
 	.about-us-img-extra > div {

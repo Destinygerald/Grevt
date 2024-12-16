@@ -395,6 +395,12 @@
 	background-color: rgb(var(--primary));
 	font-size: .6rem;
 	font-weight: 600;
+	cursor: pointer;
+}
+
+.selected-btn  {
+	background-color: rgb(var(--secondary)) !important;
+	color: white;
 }
 
 .our-services-card-btn > span:last-child {
@@ -538,9 +544,10 @@
 }
 
 .about-us-cnt-hdr > div:nth-child(3) {
-	font-size: .6rem;
+	font-size: .72rem;
 	color: rgb(255, 255, 255, .8);
 	line-height: .92rem;
+	font-weight: 600;
 }
 
 .about-us-cnt-list {
@@ -549,6 +556,8 @@
 	flex-direction: column;
 	gap: 4px;
 	font-size: .66rem;
+	font-weight: 600;
+	color: rgb(255, 255, 255, .8);
 }
 
 .about-us-cnt-list > span {
@@ -556,7 +565,7 @@
 	gap: 8px;
 }
 
-.about-us-cnt-btn > button {
+.about-us-cnt-btn > a > button {
 	border: none;
 	padding: 10px 24px;
 	border-radius: 20px;
@@ -859,6 +868,17 @@
 	background-color: rgb(220, 220, 220);
 }
 
+.testimonials-card-img > div:last-child {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.testimonials-card-img > div:last-child > img {
+	width: 100%;
+}
+
 .testimonials-card-img > div:first-child > div {
 	width: 32px;
 	height: 32px;
@@ -979,7 +999,7 @@
 } 
 
 
-.footer-top > button {
+.footer-top > a > button {
 	border: none;
 	padding: 10px 24px;
 	border-radius: 20px;

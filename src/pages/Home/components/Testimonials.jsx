@@ -2,26 +2,29 @@ import '../style.css'
 import '../style.mobile.css'
 import { FaStar } from 'react-icons/fa' 
 import { useState } from 'react'
+import img1 from '/images/ceo1.webp'
+import img2 from '/images/ceo2.webp'
+import img3 from '/images/ceo3.webp'
 
 const Cards = [
 	{
-		img: '',
+		img: img1,
 		ratings: 4,
-		testimony: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.',
+		testimony: 'Grevt has been an invaluable partner in our digital trasformation journey. Their expertise and dedication has helped us achieve our goals and exceed our expectation. ',
 		user: 'Dianne Roswell',
 		position: 'Owner, Architecure Studio'
 	},
 	{
-		img: '',
+		img: img2,
 		ratings: 5,
-		testimony: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.',
+		testimony: 'Grevt designed and developed a mobile app for our business that has received rare positive reviews from our cutstomers. Their team is highly skilled, responsive and pleasurable to work with.',
 		user: 'Jane Foster',
 		position: 'Manager, Rex Studio'
 	},
 	{
-		img: '',
+		img: img3,
 		ratings: 4,
-		testimony: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.',
+		testimony: ' Grevt has provided us with exceptional UX/UI design services that have significantly improved our websites user experience. Their team is creative, knowledgeable, and always willing to go an extra mile. ',
 		user: 'James Cambell',
 		position: 'Director, Aston Keelr'
 	},
@@ -31,7 +34,11 @@ function TestimonialsCard ({ img, ratings, testimony, user, position }) {
 	return (
 		<div className='testimonials-card'>
 			<div className='testimonials-card-img'>
-				<div> <div> “ </div> </div>
+				<div>
+					 <div> “ </div> 
+				</div>
+
+				<div> <img src={img} /> </div>
 			</div>
 
 			<div>
@@ -78,7 +85,7 @@ function TestimonialsCnt () {
 
 	return (
 		<div className='testimonials-cnt'>
-			<TestimonialsCard ratings={Cards[card]?.ratings} user={Cards[card]?.user} position={Cards[card]?.position} testimony={Cards[card]?.testimony} />
+			<TestimonialsCard ratings={Cards[card]?.ratings} user={Cards[card]?.user} position={Cards[card]?.position} testimony={Cards[card]?.testimony} img={Cards[card]?.img} />
 
 			<div className='testimonials-arrow-left' onClick={Left}> <div> {'<'} </div> </div>
 			<div className='testimonials-arrow-right' onClick={Right}> <div> {'>'} </div> </div>

@@ -40,7 +40,7 @@ function BannerSkillList () {
 
 			<div />
 
-			<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. </div>
+			<div>At Grevt, we are committed to continuing our pursuit of excellence, driving innovation and delivering exceptional results that exceed our clients' expectations.</div>
 		</div>
 	)
 }

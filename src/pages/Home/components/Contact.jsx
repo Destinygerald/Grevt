@@ -72,7 +72,7 @@ function ContactBtm () {
 
 export function Contact () {
 	return (
-		<div className='contact'>
+		<div className='contact' id='contact'>
 			<ContactTop />
 			<ContactBtm />
 		</div>

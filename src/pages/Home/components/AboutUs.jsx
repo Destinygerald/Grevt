@@ -35,7 +35,7 @@ function AboutUsCntHdr () {
 				<div>We're <span className='green'>Awards Winning</span> <br/> Digital Agency </div>
 				
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.
+					At Grevt, we're proud of our achievements and impacts we have made in the industry. With a team of dedicated experts and a passion for innovation, we have successfully delivered numerous projects that have transformed businesses and improved lives.
 				</div>
 
 			</div>
@@ -54,7 +54,7 @@ function AboutUsCnt () {
 			</div>
 
 			<div className='about-us-cnt-btn'>
-				<button>Learn More</button>
+				<a href='#contact'><button>Contact us</button></a>
 			</div>
 		</div>
 	)

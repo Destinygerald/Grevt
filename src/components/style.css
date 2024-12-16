@@ -26,7 +26,7 @@
 	cursor: pointer;
 }
 
-.navbar-btns > button {
+.navbar-btns > a > button {
 	background-color: rgb(var(--primary));
 	border: none;
 	font-size: .66rem;

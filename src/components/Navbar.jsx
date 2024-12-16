@@ -14,7 +14,7 @@ export function Navbar () {
 			</div>
 
 			<div className='navbar-btns'>
-				<button>Let's Talk</button>
+				<a href='#contact'> <button>Let's Talk</button> </a>
 			</div>
 
 		</div>

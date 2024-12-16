@@ -8,7 +8,7 @@ function FooterCnt () {
 	<div className='footer-cnt'>
 		<div>
 			<span>Grevt</span>
-			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.</span>
+			<span>At Grevt, we are committed to continuing our pursuit of excellence, driving innovation and delivering exceptional results that exceed our clients' expectations.</span>
 		</div>
 
 		<div>
@@ -61,7 +61,7 @@ export function Footer () {
 			<div className='footer-top'>
 				<span> Let's <span className='green'>Connect</span> there </span>
 
-				<button>Let's Connect</button>
+				<a href='#contact'> <button>Let's Connect</button> </a>
 			</div>
 
 			<FooterCnt />
